@@ -146,7 +146,7 @@ namespace ConsoleApp1
                 catch(SqlException ex)
                 {
                     trans.Rollback();
-                    throw new Exception("执行事务出现异常", ex);
+                    throw new Exception("执行事务出现异常了啊", ex);
                 }
             }
         }
